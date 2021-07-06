@@ -17,7 +17,7 @@ def localDB_function(sDB, dvar):
     db.close()
         
 def awsDB_function(sawsDB, dvar):
-    awsdb = mysql.connect(host="air.cswq9zu2vs2a.eu-west-3.rds.amazonaws.com", user="admin",passwd="UBair1234",database=sawsDB)
+    awsdb = mysql.connect(host="airquality-id.ckvkvwrfnnhu.eu-west-2.rds.amazonaws.com", user="andreacosta",passwd="Barcelona98!",database=sawsDB)
     awsCursor = awsdb.cursor() 
 
             #insert information
